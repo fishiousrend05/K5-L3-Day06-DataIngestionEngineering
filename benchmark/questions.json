@@ -1,0 +1,210 @@
+[
+  {
+    "id": "Q01",
+    "split": "dev",
+    "question": "What are the two different worlds of data discussed at the beginning of Chapter 1?",
+    "expected_answer": "The operational world of data capture (OLTP) and the analytical world of data analysis (DW/BI).",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 38,
+    "evidence_quote": "Different Worlds of Data Capture and Data Analysis One of the most important assets of any organization is its information. This asset is almost always used for",
+    "filter": null
+  },
+  {
+    "id": "Q02",
+    "split": "dev",
+    "question": "How must a DW/BI system respond to changing business conditions and user needs?",
+    "expected_answer": "The DW/BI system must adapt gracefully to change in user needs, business conditions, data, and technology.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 40,
+    "evidence_quote": "The DW/BI system must adapt to change. User needs, business conditions, data, and technology are all subject to change. The DW/BI system must be designed to han",
+    "filter": null
+  },
+  {
+    "id": "Q03",
+    "split": "dev",
+    "question": "What analogy is used to describe the role and responsibilities of a DW/BI manager?",
+    "expected_answer": "A conventional publisher who gathers content, edits it for quality, and distributes it to readers.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 42,
+    "evidence_quote": "parallels that can be drawn between being a conventional publisher and being a DW/BI manager. Driven by the needs of the business, DW/BI managers must publish d",
+    "filter": null
+  },
+  {
+    "id": "Q04",
+    "split": "dev",
+    "question": "Why do normalized 3NF structures differ from dimensional models?",
+    "expected_answer": "Normalized 3NF structures seek to remove data redundancies by dividing data into many discrete entities.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 44,
+    "evidence_quote": "seek to remove data redundancies. Normalized 3NF structures divide data into many discrete entities, each of which becomes a relational table. A database of sal",
+    "filter": null
+  },
+  {
+    "id": "Q05",
+    "split": "dev",
+    "question": "What security advantage do OLAP cubes typically offer compared to RDBMSs?",
+    "expected_answer": "OLAP cubes typically offer more sophisticated security options, such as limiting access to specific cells or dimensions.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 46,
+    "evidence_quote": "OLAP cubes typically off er more sophisticated security options than RDBMSs, such as limiting access to detailed data but providing more open access to summary",
+    "filter": null
+  },
+  {
+    "id": "Q06",
+    "split": "dev",
+    "question": "How are facts and dimensions combined in a relational database for dimensional modeling?",
+    "expected_answer": "Facts and dimensions are joined together in a star schema.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 52,
+    "evidence_quote": "Facts and Dimensions Joined in a Star Schema Now that you understand fact and dimension tables, it’s time to bring the building blocks together in a dimensional",
+    "filter": null
+  },
+  {
+    "id": "Q07",
+    "split": "dev",
+    "question": "What kitchen and restaurant analogy is used to explain the ETL back room vs presentation area?",
+    "expected_answer": "The restaurant staffs its kitchen (back room ETL) with skilled professionals preparing food for the dining room.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 60,
+    "evidence_quote": "The restaurant staff s its kitchen with skilled professionals wielding the tools of their trade. Cooks manipulate razor-sharp knives with incredible confi dence",
+    "filter": null
+  },
+  {
+    "id": "Q08",
+    "split": "dev",
+    "question": "In Chapter 1, what architecture is contrasted with the Kimball dimensional DW/BI architecture?",
+    "expected_answer": "The Hub-and-Spoke Corporate Information Factory (Inmon architecture).",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 64,
+    "evidence_quote": "Hub-and-Spoke Corporate Information Factory Inmon Architecture The hub-and-spoke Corporate Information Factory (CIF) approach is advocated by Bill Inmon and oth",
+    "filter": {
+      "chapter": "Chapter 1"
+    }
+  },
+  {
+    "id": "Q09",
+    "split": "dev",
+    "question": "In Chapter 1, at what level of granularity should fact tables be designed?",
+    "expected_answer": "Fact tables should be designed at the most granular (atomic) level rather than delivering only summary data.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 68,
+    "evidence_quote": "fact tables at the most granular level. Dimensional models that deliver only summary data are bound to be problematic; users run into analytic brick walls when",
+    "filter": {
+      "chapter": "Chapter 1"
+    }
+  },
+  {
+    "id": "Q10",
+    "split": "dev",
+    "question": "What kind of descriptive context do dimensions provide around a business process?",
+    "expected_answer": "Dimensions provide the 'who, what, where, when, why, and how' context surrounding a business process event.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 76,
+    "evidence_quote": "provide the “who, what, where, when, why, and how” context surrounding a business process event. Dimension tables contain the descriptive attributes used by BI",
+    "filter": null
+  },
+  {
+    "id": "Q11",
+    "split": "dev",
+    "question": "Besides numeric measures, what keys are always contained in a fact table?",
+    "expected_answer": "A fact table always contains foreign keys for each of its associated dimensions.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 78,
+    "evidence_quote": "In addition to numeric measures, a fact table always contains foreign keys for each of its associated dimensions, as well as optional degenerate dimension keys",
+    "filter": null
+  },
+  {
+    "id": "Q12",
+    "split": "dev",
+    "question": "Why should calendar attributes like holidays or Easter be stored in a date dimension table rather than computed in SQL?",
+    "expected_answer": "Because calendar logic is complex and you would never want to compute Easter in SQL; users look it up in the Date dimension.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 85,
+    "evidence_quote": "never want to compute Easter in SQL, but rather want to look it up in the calendar date dimension. The calendar date dimension typically has many attributes des",
+    "filter": null
+  },
+  {
+    "id": "Q13",
+    "split": "dev",
+    "question": "When do dimension tables conform across separate data marts?",
+    "expected_answer": "Dimension tables conform when attributes in separate dimension tables have the same column names and domain contents.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 87,
+    "evidence_quote": "Conformed Dimensions Dimension tables conform when attributes in separate dimension tables have the same column names and domain contents. Information from sepa",
+    "filter": null
+  },
+  {
+    "id": "Q14",
+    "split": "dev",
+    "question": "In Chapter 2, how does Slowly Changing Dimension (SCD) Type 0 handle attribute changes?",
+    "expected_answer": "With Type 0 (Retain Original), the dimension attribute value never changes, so facts are always grouped by the original value.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 90,
+    "evidence_quote": "Type 0: Retain Original With type 0, the dimension attribute value never changes, so facts are always grouped by this original value. Type 0 is appropriate for",
+    "filter": {
+      "chapter": "Chapter 2"
+    }
+  },
+  {
+    "id": "Q15",
+    "split": "dev",
+    "question": "How does Slowly Changing Dimension (SCD) Type 3 track attribute changes?",
+    "expected_answer": "Type 3 changes add a new attribute (column) in the dimension row to store the previous attribute value.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 91,
+    "evidence_quote": "Type 3: Add New Attribute Type 3 changes add a new attribute in the dimension to preserve the old attribute value; the new value overwrites the main attribute a",
+    "filter": null
+  },
+  {
+    "id": "Q16",
+    "split": "test",
+    "question": "Why are textual attributes in dimension tables important for business users?",
+    "expected_answer": "Dimension tables provide descriptive textual attributes so business users do not have to memorize operational codes.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 50,
+    "evidence_quote": "textual attributes. You may have already trained the business users to memorize operational codes, but going forward, minimize their reliance on miniature notes",
+    "filter": null
+  },
+  {
+    "id": "Q17",
+    "split": "test",
+    "question": "What happens when you flatten normalized hierarchies into separate attributes on a dimension row?",
+    "expected_answer": "Dimension denormalization flattens hierarchies into separate attributes on a dimension row to support simplicity and browsing.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 84,
+    "evidence_quote": "hierarchies into separate attributes on a fl attened dimension row. Dimension denormalization supports dimensional modeling’s twin objectives of simplicity and",
+    "filter": null
+  },
+  {
+    "id": "Q18",
+    "split": "test",
+    "question": "What identifies the natural flow of an organization's primary business processes?",
+    "expected_answer": "A value chain identifies the natural flow of an organization's primary business processes.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 88,
+    "evidence_quote": "Value Chain A value chain identifi es the natural fl ow of an organization’s primary business processes. For example, a retailer’s value chain may consist of pu",
+    "filter": null
+  },
+  {
+    "id": "Q19",
+    "split": "test",
+    "question": "In Chapter 2, how does SCD Type 6 combine slowly changing dimension techniques?",
+    "expected_answer": "Type 6 adds Type 1 attributes to a Type 2 dimension to deliver both historical and current attribute values.",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 92,
+    "evidence_quote": "Type 6: Add Type 1 Attributes to Type 2 Dimension Like type 5 , type 6 also delivers both historical and current dimension attribute values. Type 6 builds on th",
+    "filter": {
+      "chapter": "Chapter 2"
+    }
+  },
+  {
+    "id": "Q20",
+    "split": "test",
+    "question": "How should designers decide whether numeric values belong as dimension attributes or fact measures?",
+    "expected_answer": "Designers evaluate whether the numeric value is a continuous measurement recalculated across rows (fact) or a discrete descriptor used for filtering/grouping (dimension attribute).",
+    "gold_source_id": "kimball_dwt_2013",
+    "gold_page": 95,
+    "evidence_quote": "Numeric Values as Attributes or Facts Designers sometimes encounter numeric values that don’t clearly fall into either the fact or dimension attribute categorie",
+    "filter": null
+  }
+]

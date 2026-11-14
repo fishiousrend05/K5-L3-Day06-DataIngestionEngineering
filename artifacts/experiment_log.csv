@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+strategy,description,embedding_model,vector_store,chunk_method,metadata_filter,num_chunks,avg_chunk_chars,ingest_time_sec,cost_usd,dev_hit_at_1,dev_hit_at_3,test_hit_at_1,test_hit_at_3,hypothesis
+A,"Fixed-size (500 chars, overlap 50) + No Filter",sentence-transformers/all-MiniLM-L6-v2,pgvector,"fixed_size(size=500, overlap=50)",False,327,456.1,5.516,0.0,5/15 (33.3%),9/15 (60.0%),2/5 (40.0%),3/5 (60.0%),"Baseline fixed window; fast and uniform, but often splits sentences and loses cross-paragraph context."
+B,Paragraph/Structure-aware (max 800 chars) + No Filter,sentence-transformers/all-MiniLM-L6-v2,pgvector,by_paragraph(max_size=800),False,215,634.1,9.18,0.0,6/15 (40.0%),8/15 (53.3%),3/5 (60.0%),4/5 (80.0%),Preserving paragraph and sentence boundaries will improve chunk coherence and evidence completeness over A.
+C,Paragraph/Structure-aware (max 800 chars) + Metadata Filter (chapter),sentence-transformers/all-MiniLM-L6-v2,pgvector,by_paragraph(max_size=800),True,215,634.1,9.656,0.0,6/15 (40.0%),10/15 (66.7%),3/5 (60.0%),4/5 (80.0%),Adding chapter metadata filter on top of B will eliminate cross-chapter false positives on scoped queries.

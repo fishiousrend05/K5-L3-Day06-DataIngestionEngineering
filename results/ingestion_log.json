@@ -1,0 +1,356 @@
+[
+  {
+    "page": 37,
+    "status": "loaded",
+    "chars": 1846,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 38,
+    "status": "loaded",
+    "chars": 2785,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 39,
+    "status": "loaded",
+    "chars": 2202,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 40,
+    "status": "loaded",
+    "chars": 2875,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 41,
+    "status": "loaded",
+    "chars": 2309,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 42,
+    "status": "loaded",
+    "chars": 2200,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 43,
+    "status": "loaded",
+    "chars": 2696,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 44,
+    "status": "loaded",
+    "chars": 2788,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 45,
+    "status": "loaded",
+    "chars": 1965,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 46,
+    "status": "loaded",
+    "chars": 2600,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 47,
+    "status": "loaded",
+    "chars": 2078,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 48,
+    "status": "loaded",
+    "chars": 2953,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 49,
+    "status": "loaded",
+    "chars": 1946,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 50,
+    "status": "loaded",
+    "chars": 2811,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 51,
+    "status": "loaded",
+    "chars": 2697,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 52,
+    "status": "loaded",
+    "chars": 2599,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 53,
+    "status": "loaded",
+    "chars": 2070,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 54,
+    "status": "loaded",
+    "chars": 1957,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 55,
+    "status": "loaded",
+    "chars": 2417,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 56,
+    "status": "loaded",
+    "chars": 3156,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 57,
+    "status": "loaded",
+    "chars": 2886,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 58,
+    "status": "loaded",
+    "chars": 2861,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 59,
+    "status": "loaded",
+    "chars": 2920,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 60,
+    "status": "loaded",
+    "chars": 2885,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 61,
+    "status": "loaded",
+    "chars": 2759,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 62,
+    "status": "loaded",
+    "chars": 2793,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 63,
+    "status": "loaded",
+    "chars": 2338,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 64,
+    "status": "loaded",
+    "chars": 1829,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 65,
+    "status": "loaded",
+    "chars": 2872,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 66,
+    "status": "loaded",
+    "chars": 1663,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 67,
+    "status": "loaded",
+    "chars": 2484,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 68,
+    "status": "loaded",
+    "chars": 2638,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 69,
+    "status": "loaded",
+    "chars": 3072,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 70,
+    "status": "loaded",
+    "chars": 2645,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 71,
+    "status": "loaded",
+    "chars": 1408,
+    "chapter": "Chapter 1"
+  },
+  {
+    "page": 72,
+    "status": "skipped",
+    "chars": 0,
+    "reason": "Page 72 skipped: insufficient text (0 chars)"
+  },
+  {
+    "page": 73,
+    "status": "loaded",
+    "chars": 1876,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 74,
+    "status": "loaded",
+    "chars": 2021,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 75,
+    "status": "loaded",
+    "chars": 2222,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 76,
+    "status": "loaded",
+    "chars": 2436,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 77,
+    "status": "loaded",
+    "chars": 1974,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 78,
+    "status": "loaded",
+    "chars": 2154,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 79,
+    "status": "loaded",
+    "chars": 1912,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 80,
+    "status": "loaded",
+    "chars": 2201,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 81,
+    "status": "loaded",
+    "chars": 2380,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 82,
+    "status": "loaded",
+    "chars": 2316,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 83,
+    "status": "loaded",
+    "chars": 2202,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 84,
+    "status": "loaded",
+    "chars": 1932,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 85,
+    "status": "loaded",
+    "chars": 2355,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 86,
+    "status": "loaded",
+    "chars": 1817,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 87,
+    "status": "loaded",
+    "chars": 2271,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 88,
+    "status": "loaded",
+    "chars": 2222,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 89,
+    "status": "loaded",
+    "chars": 1642,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 90,
+    "status": "loaded",
+    "chars": 1860,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 91,
+    "status": "loaded",
+    "chars": 2071,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 92,
+    "status": "loaded",
+    "chars": 2365,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 93,
+    "status": "loaded",
+    "chars": 2254,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 94,
+    "status": "loaded",
+    "chars": 2071,
+    "chapter": "Chapter 2"
+  },
+  {
+    "page": 95,
+    "status": "loaded",
+    "chars": 2214,
+    "chapter": "Chapter 2"
+  }
+]
